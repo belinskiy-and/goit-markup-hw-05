@@ -621,6 +621,10 @@ p {
   pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
 .modal {
   position: absolute;
   top: 50%;
@@ -628,9 +632,9 @@ p {
 
   width: 528px;
   height: 581px;
-  transform: translate(-50%, -50%);
-
+  transform: translate(-50%, -50%) scale(1);
   background-color: var(--third-block-color);
+  transition: transform 250ms var(--cubic-value);
 }
 
 .modal-button-close {
