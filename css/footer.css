@@ -49,12 +49,17 @@
 
 .footer-form-input {
   width: 264px;
+  height: 40px;
   line-height: 2;
   letter-spacing: 0.04em;
   border-color: #ffffff;
 }
 .footer-form-input:focus {
   border-color: #31d0aa;
+}
+
+.foter-form-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-button {
