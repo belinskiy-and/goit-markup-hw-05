@@ -48,6 +48,8 @@
 }
 
 .footer-form-input {
+  line-height: 2;
+  letter-spacing: 0.04em;
   border-color: #ffffff;
 }
 .footer-form-input:focus {
