@@ -58,7 +58,7 @@
   border-color: #31d0aa;
 }
 
-.foter-form-input::placeholder {
+.footer-form-input::placeholder {
   color: #ffffff;
 }
 
@@ -67,6 +67,7 @@
   align-items: center;
   gap: 16px;
   padding: 8px 24px;
+  color: #ffffff;
 }
 
 .footer-button-icon {

@@ -10,14 +10,14 @@
   z-index: 999;
   pointer-events: none;
   background-color: rgba(46, 47, 66, 0.4);
-  opacity: 1;
+  opacity: 0;
   visibility: hidden;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
-  opacity: 0;
+  opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
@@ -75,9 +75,12 @@
   color: #2e2f42;
 }
 
+.form-input-wrapper {
+  margin-bottom: 8px;
+}
+
 .modal-form-input {
   padding: 11px 11px 11px 38px;
-  margin-bottom: 8px;
   color: #2e2f42;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
