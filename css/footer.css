@@ -25,11 +25,55 @@
   width: 264px;
 }
 
+.social-block {
+  margin-right: 83px;
+}
+
 .footer .social-list {
   gap: 16px;
 }
 
 .footer .social-link:hover,
 .footer .social-link:focus {
+  background-color: #31d0aa;
+}
+
+.subscribe-block {
+  flex-grow: 1;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
+  border-color: #ffffff;
+}
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-button {
+  position: relative;
+  padding: 8px 64px 8px 24px;
+}
+
+.footer-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background: url("../images/send-icon.svg") center / cover no-repeat;
+}
+
+.footer-button:hover,
+.footer-button:focus {
   background-color: #31d0aa;
 }

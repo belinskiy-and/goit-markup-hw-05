@@ -567,8 +567,103 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-block">
+          <p class="social-title">Subscribe</p>
+          <form class="footer-form" autocomplete="off">
+            <input
+              type="email"
+              class="form-input footer-form-input"
+              name="mail"
+              placeholder="E-mail"
+            />
+            <button class="button footer-button" type="button">
+              Subscribe
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- #endregion Footer -->
   </body>
+
+  <!-- #region modal -->
+  <div class="backdrop">
+    <div class="modal">
+      <button class="modal-close-button" type="button">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+      <form class="modal-form" autocomplete="off">
+        <label class="form-input-label" for="input-name">Name</label>
+        <div class="modal-form-input-wrapper">
+          <input
+            class="form-input modal-form-input"
+            id="input-name"
+            type="text"
+            name="name"
+          />
+          <svg class="modal-form-input-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-user"></use>
+          </svg>
+        </div>
+
+        <label class="form-input-label" for="input-phone">Phone</label>
+        <div class="modal-form-input-wrapper">
+          <input
+            class="form-input modal-form-input"
+            id="input-phone"
+            type="tel"
+            name="phone"
+          />
+          <svg class="modal-form-input-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+        </div>
+
+        <label class="form-input-label" for="input-mail">Email</label>
+        <div class="modal-form-input-wrapper">
+          <input
+            class="form-input modal-form-input"
+            id="input-mail"
+            type="email"
+            name="mail"
+          />
+          <svg class="modal-form-input-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-email"></use>
+          </svg>
+        </div>
+
+        <label
+          class="form-input-label form-input-label-textarea"
+          for="input-comment"
+          >Comment</label
+        >
+        <textarea
+          class="form-textarea modal-form-textarea"
+          id="input-comment"
+          name="comment"
+        ></textarea>
+
+        <label class="form-input-label modal-form-input-label">
+          <input
+            class="form-checkbox modal-form-checkbox sr-only"
+            type="checkbox"
+            name="policy"
+            value="true"
+          />
+          <span class="form-checkbox-custom">
+            <svg class="form-checkbox-custom-icon" width="10" height="10">
+              <use href="./images/icons.svg#icon-check-mark"></use>
+            </svg>
+          </span>
+          I accept the terms and conditions of the
+          <a href="" class="form-input-label-link">Privacy Policy</a>
+        </label>
+        <button class="button modal-form-button" type="button">Send</button>
+      </form>
+    </div>
+  </div>
+  <!-- #andregion modal -->
 </html>
