@@ -61,18 +61,15 @@
   padding: 8px 64px 8px 24px;
 }
 
-.footer-button::after {
-  content: "";
+.footer-button-icon {
   position: absolute;
   top: 50%;
   right: 24px;
   transform: translateY(-50%);
 
-  display: block;
   width: 24px;
   height: 24px;
-
-  background: url("../images/send-icon.svg") center / cover no-repeat;
+  fill: #ffffff;
 }
 
 .footer-button:hover,
